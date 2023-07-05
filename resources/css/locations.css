@@ -1,0 +1,219 @@
+/*General and Header*/
+
+/*Caprasimo*/
+
+@font-face {
+    font-family: 'Caprasimo';
+    src: url('https://fonts.gstatic.com/s/caprasimo/v2/8vIgQ-qYl8Uvl9dgtoYWt3wNDOjZX4mY.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Josefin Sans*/
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('https://fonts.gstatic.com/s/josefinsans/v21/Qw3PZQNVED7rKGKxtqIqX5EAn4q6.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Ysabeau Infant*/
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('https://fonts.gstatic.com/s/ysabeauinfant/v6/7rMCoKFzvHmuDlOxVwETPq3MwAE2.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+html {
+    font-family: 'Caprasimo', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f0db;
+}
+
+header {
+    position: fixed;
+    top: 0rem;
+    min-height: 5rem;
+    max-height: 8.625rem;
+    border-bottom: 5px solid #000;
+    background-color: #f0f8ff;
+    width: 100%;
+    z-index: 3;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+header h1 {
+    margin-left: 1.25rem;
+}
+
+header p {
+    margin-left: 2.5rem;
+}
+
+header ul {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+li {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/*Locations*/
+/*
+.location {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("backgroundimages/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 43.75rem;
+    width: 85%;
+    padding: 5rem;
+    border: 10px solid #000;
+}
+
+.location-square{
+    position: absolute;
+    background-color: #000000;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 18.75rem;
+    width: 18.75rem;
+    padding: 0.625rem 0.625rem;
+    border: 10px solid #000;
+    opacity: 0.8;
+}
+
+.location-square-text{
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+}
+
+.location-square-2{
+    position: absolute;
+    background-color: #000000;
+    top: 50%;
+    transform: translate(0, 50%);
+    height: 18.75rem;
+    width: 18.75rem;
+    padding: 0.625rem 0.625rem;
+    border: 10px solid #000;
+    opacity: 0.8;
+}
+*/
+.location {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("backgroundimages/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 43.75rem;
+    width: 85%;
+    padding: 5rem;
+    border: 10px solid #000;
+}
+
+.location-square {
+    position: absolute;
+    background-color: #000000;
+    top: 50%;
+    left: 5rem; /* Adjust this value as needed to position it on the left side */
+    transform: translateY(-50%);
+    height: 18.75rem;
+    width: 18.75rem;
+    padding: 0.625rem;
+    border: 10px solid #000;
+    opacity: 0.8;
+}
+
+.location-square-text {
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+}
+
+.location-square-2 {
+    position: absolute;
+    background-color: #000000;
+    top: 50%;
+    right: 5rem; /* Adjust this value as needed to position it on the right side */
+    transform: translateY(-50%);
+    height: 18.75rem;
+    width: 18.75rem;
+    padding: 0.625rem;
+    border: 10px solid #000;
+    opacity: 0.8;
+}
+
+
+/*Footer*/
+
+footer{
+    margin-top: 0.8rem;
+    border-top: 5px solid #000;
+}
+
+footer a {
+    font-size: 1rem;
+}
+
+footer h1 {
+    margin-left: 0.8rem;
+}
+
+footer p {
+    margin-left: 0.8rem;
+}
+
+/*Responsive adjustments*/
+
+@media screen and (min-width: 360px) and (max-width: 414px) {
+    /*  header {
+          height: 5rem;
+      } */
+  
+      header h1 {
+          font-size: 1.7rem;
+          padding-bottom: 0.5rem;
+      }
+  
+      header p {
+          display: none;
+      }
+  
+      header a {
+          font-size: 1rem;
+      }
+    }  
