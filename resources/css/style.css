@@ -117,7 +117,7 @@ a {
     margin-left: 0.8rem;
 }
 
-.side-text-background .side-text p .side-text h1{
+.side-text-background .side-text p .side-text h1 {
     overflow: hidden;
 }
 
@@ -135,7 +135,9 @@ a {
 
 .our-purpose-text {
     text-align: center;
-    width: 50%;
+    height: 24rem;
+    min-width: 50%;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -183,17 +185,11 @@ footer p {
     margin-left: 0.8rem;
 }
 
-/* Responsive Adjustments */
-
-/* Mobile Displays Done*/
-@media screen and (min-width: 360px) and (max-width: 414px) {
-  /*  header {
-        height: 5rem;
-    } */
+/* Styles for mobile phones */
+@media (max-width: 480px) {
 
     header h1 {
-        font-size: 1.7rem;
-        padding-bottom: 0.5rem;
+        font-size: 1.5rem;
     }
 
     header p {
@@ -204,188 +200,43 @@ footer p {
         font-size: 1rem;
     }
 
-    /* Landing image and text 
-    .landinginfo {
-        
-        width: 100%;
-        border-bottom: 5px solid #000;
-    } */
-
-    .side-text {
-        display: none;
-    }
-
-    .side-text-background {
-        display: none;
-    }
-
-    /* Our purpose */
-    .our-purpose {
-        height: 43rem;
-    }
-
     .our-purpose-text {
-        width: 90%;
+        overflow: scroll;
     }
 
-    .our-purpose-text h1 {
-        font-size: 2rem;
+}
+
+/* Styles for tablets and small laptops */
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    header h1{
+        font-size: 1.8rem;
+    }
+    
+    header p{
+        display: none;
     }
 
-    .our-purpose-text p {
+     header a {
         font-size: 1.5rem;
     }
 
-    /* Food images */
-    article img {
-        border: hidden;
-        height: 15rem;
+     .our-purpose-text {
+        overflow: scroll;
     }
+
 }
 
-/*Larger Mobiles Done*/
-@media screen and (min-width: 415px) and (min-height: 640px) and (max-width: 600px) and (max-height: 896px) {
-
-    /* Header */
-    /*header {
-        height: 5rem;
-    } */
-
-    header h1 {
-        font-size: 1.7rem;
-        padding-bottom: 0.5rem;
-    }
-
-    header p {
-        display: none;
-    }
-
-    header a {
-        font-size: 1rem;
-    }
-
-    /* Landing image and text */
-    .landinginfo {
-        height: 23rem;
-        width: 100%;
-        border-bottom: 5px solid #000;
-    }
-
-    .side-text {
-        display: none;
-    }
-
-    .side-text-background {
-        display: none;
-    }
-
-    /* Our purpose */
-    .our-purpose {
-        height: 29rem;
-    }
-
+/* Styles for medium-sized laptops and desktops */
+@media (min-width: 768px) and (max-width: 1024px) {
+       
     .our-purpose-text {
-        width: 90%;
+        overflow: scroll;
     }
 
-    .our-purpose-text h1 {
-        font-size: 2rem;
-    }
-
-    .our-purpose-text p {
-        font-size: 1.5rem;
-    }
-
-    /* Food images */
-    article img {
-        border: hidden;
-        height: 15rem;
-    }
 }
 
-/* iPad*/
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .side-text {
-        display: none;
-    }
+/* Styles for large desktops and high-resolution displays */
+@media (min-width: 1025px) {
 
-    .side-text-background {
-        display: none;
-    }
-
-    .our-purpose {
-        overflow-y: auto;
-    }
-}
-
-
-/* Tablet Displays */
-@media screen and (min-width: 601px) and (min-height: 800px) and (max-width: 1280px) and (max-height: 962px) {
-    header {
-        height: 5rem;
-    }
-
-    header h1 {
-        font-size: 2rem;
-        padding-bottom: 0.5rem;
-    }
-
-    header p {
-        display: none;
-    }
-
-    header a {
-        font-size: 1.5rem;
-    }
-
-    /* Landing image and text */
-    .landinginfo {
-        height: 23rem;
-        width: 100%;
-        border-bottom: 5px solid #000;
-    }
-
-
-    .side-text {
-        display: none;
-    }
-
-    .side-text-background {
-        display: none;
-    }
-
-
-    /* Our purpose */
-  /*  .our-purpose {
-        height: 29rem;
-    } */
-
-    .our-purpose-text {
-        width: 90%;
-    }
-
-    .our-purpose-text h1 {
-        font-size: 2rem;
-    }
-
-    .our-purpose-text p {
-        font-size: 1.5rem;
-    }
-
-    /* Food images */
-    article img {
-        border: hidden;
-        height: 15rem;
-    }
-}
-
-/* Desktop Displays */
-@media screen and (min-width: 1280px) and (min-height: 720px) and (max-width: 1920px) and (max-height: 1080px) {
-    .landinginfo{
-        height: 53rem;
-    }
-
-    .side-text-background{
-        display: none;
-    }
 }
