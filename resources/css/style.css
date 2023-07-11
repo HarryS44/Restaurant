@@ -109,7 +109,7 @@ a {
     overflow: hidden;
 }
 
-.side-text h1 {
+.side-text h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
     margin-left: 0.8rem;
@@ -145,7 +145,7 @@ a {
     margin: auto;
 }
 
-.our-purpose h1 {
+.our-purpose h2 {
     font-size: 4rem;
     text-shadow: #000;
 }
@@ -181,7 +181,7 @@ footer a {
     font-size: 1rem;
 }
 
-footer h1 {
+footer h2 {
     margin-left: 0.8rem;
 }
 
