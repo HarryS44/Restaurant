@@ -1,259 +1,255 @@
 /* Define the Caprasimo font and its source */
 @font-face {
-    font-family: 'Caprasimo';
-    src: url('https://fonts.gstatic.com/s/caprasimo/v2/8vIgQ-qYl8Uvl9dgtoYWt3wNDOjZX4mY.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Caprasimo";
+  src: url("https://fonts.gstatic.com/s/caprasimo/v2/8vIgQ-qYl8Uvl9dgtoYWt3wNDOjZX4mY.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Define the Josefin Sans font and its source */
 @font-face {
-    font-family: 'Josefin Sans';
-    src: url('https://fonts.gstatic.com/s/josefinsans/v21/Qw3PZQNVED7rKGKxtqIqX5EAn4q6.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Josefin Sans";
+  src: url("https://fonts.gstatic.com/s/josefinsans/v21/Qw3PZQNVED7rKGKxtqIqX5EAn4q6.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Define the Ysabeau Infant font and its source */
 @font-face {
-    font-family: 'Ysabeau Infant';
-    src: url('https://fonts.gstatic.com/s/ysabeauinfant/v6/7rMCoKFzvHmuDlOxVwETPq3MwAE2.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
+  font-family: "Ysabeau Infant";
+  src: url("https://fonts.gstatic.com/s/ysabeauinfant/v6/7rMCoKFzvHmuDlOxVwETPq3MwAE2.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
 }
 
 /* Set default font and font size for the HTML element */
 html {
-    font-family: 'Caprasimo', sans-serif;
-    font-size: 16px;
+  font-family: "Caprasimo", sans-serif;
+  font-size: 16px;
 }
 
 /* Set margin, background color, and font for the body element */
 body {
-    margin: 0;
-    background-color: #f4f0db;
+  margin: 0;
+  background-color: #f4f0db;
 }
 
 /* Style for the header element */
 header {
-    position: fixed;
-    min-height: 5rem;
-    max-height: 8.625rem;
-    border-bottom: 5px solid #000;
-    background-color: #f0f8ff;
-    width: 100%;
-    z-index: 3;
+  position: fixed;
+  min-height: 5rem;
+  max-height: 8.625rem;
+  border-bottom: 5px solid #000;
+  background-color: #f0f8ff;
+  width: 100%;
+  z-index: 3;
 }
 
 /* Styles for heading elements */
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 /* Style for paragraph elements */
 p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Styles for elements inside the header */
 header h1 {
-    margin-left: 1.25rem;
+  margin-left: 1.25rem;
 }
 
 header p {
-    margin-left: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 /* Styles for the navigation links inside the header */
 header ul {
-    list-style: none;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 li {
-    display: inline-block;
-    margin-right: 0.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
 }
 
 a {
-    color: #000;
-    text-decoration: none;
-    font-size: 2rem;
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 /*Landing image and everything on the image*/
 
 /* Style for the landinginfo section */
 .landinginfo {
-    background-image: url("backgroundimages/Landing1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 23rem;
-    max-height: 53.75rem;
-    width: 100%;
-    border-bottom: 5px solid #000;
+  background-image: url("backgroundimages/Landing1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 23rem;
+  max-height: 53.75rem;
+  width: 100%;
+  border-bottom: 5px solid #000;
 }
 
 /* Style for the side text background */
 .side-text-background {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.8);
-    height: 10rem;
-    width: 35%;
-    top: 25rem;
-    left: 3.5rem;
-    border: 2.5px solid #000;
-    overflow: hidden;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 10rem;
+  width: 35%;
+  top: 25rem;
+  left: 3.5rem;
+  border: 2.5px solid #000;
+  overflow: hidden;
 }
 
 /* Styles for the side text */
 .side-text h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 0.8rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0.8rem;
 }
 
 .side-text p {
-    font-family: "Josefins-sans", sans-serif;
-    font-weight: 800;
-    margin-left: 0.8rem;
+  font-family: "Josefins-sans", sans-serif;
+  font-weight: 800;
+  margin-left: 0.8rem;
 }
 
 .side-text-background .side-text p .side-text h1 {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /*Our purpose*/
 
 /* Styles for the our-purpose section */
 .our-purpose {
-    position: relative;
-    text-align: center;
-    min-height: 25.8rem;
-    max-height: 43rem;
-    width: 100%;
-    margin: auto;
-    border-bottom: 5px solid #000;
+  position: relative;
+  text-align: center;
+  min-height: 25.8rem;
+  max-height: 43rem;
+  width: 100%;
+  margin: auto;
+  border-bottom: 5px solid #000;
 }
 
 /* Styles for the our-purpose text */
 .our-purpose-text {
-    text-align: center;
-    height: 24rem;
-    min-width: 50%;
-    max-width: 90%;
-    margin: auto;
+  text-align: center;
+  height: 24rem;
+  min-width: 50%;
+  max-width: 90%;
+  margin: auto;
 }
 
 .our-purpose h2 {
-    font-size: 4rem;
-    text-shadow: #000;
+  font-size: 4rem;
+  text-shadow: #000;
 }
 
 .our-purpose p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /*Food pictures*/
 
 /* Styles for images inside articles */
 article img {
-    height: 25rem;
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 3rem;
+  height: 25rem;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 3rem;
 }
 
 /* Styles for the ourfood section */
 .ourfood {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    object-fit: cover;
-    border-bottom: 5px solid #000;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  object-fit: cover;
+  border-bottom: 5px solid #000;
 }
 
 .ourfood-text {
-    text-align: center;
+  text-align: center;
 }
 
 /*Footer*/
 
 /* Styles for links in the footer */
 footer a {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 footer h2 {
-    margin-left: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 footer p {
-    margin-left: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 /* Styles for mobile phones */
 @media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
 
-    header h1 {
-        font-size: 1.5rem;
-    }
+  header p {
+    display: none;
+  }
 
-    header p {
-        display: none;
-    }
+  header a {
+    font-size: 1rem;
+  }
 
-    header a {
-        font-size: 1rem;
-    }
-
-    .our-purpose-text {
-        overflow: scroll;
-    }
-
+  .our-purpose-text {
+    overflow: scroll;
+  }
 }
 
 /* Styles for tablets and small laptops */
 @media (min-width: 481px) and (max-width: 767px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
 
-    header h1 {
-        font-size: 1.8rem;
-    }
+  header p {
+    display: none;
+  }
 
-    header p {
-        display: none;
-    }
+  header a {
+    font-size: 1.5rem;
+  }
 
-    header a {
-        font-size: 1.5rem;
-    }
-
-    .our-purpose-text {
-        overflow: scroll;
-    }
-
+  .our-purpose-text {
+    overflow: scroll;
+  }
 }
 
 /* Styles for medium-sized laptops and desktops */
 @media (min-width: 768px) and (max-width: 1024px) {
-
-    .our-purpose-text {
-        overflow: scroll;
-    }
-
+  .our-purpose-text {
+    overflow: scroll;
+  }
 }
 
 /* Styles for large desktops and high-resolution displays */
 @media (min-width: 1025px) {
-    .landinginfo {
-        height: 40rem;
-    }
-
+  .landinginfo {
+    height: 40rem;
+  }
 }
