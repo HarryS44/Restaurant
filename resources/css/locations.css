@@ -83,53 +83,6 @@ a {
     font-size: 2rem;
 }
 
-/*Locations*/
-/*
-.location {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-image: url("backgroundimages/map.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 43.75rem;
-    width: 85%;
-    padding: 5rem;
-    border: 10px solid #000;
-}
-
-.location-square{
-    position: absolute;
-    background-color: #000000;
-    top: 50%;
-    transform: translate(0, -50%);
-    height: 18.75rem;
-    width: 18.75rem;
-    padding: 0.625rem 0.625rem;
-    border: 10px solid #000;
-    opacity: 0.8;
-}
-
-.location-square-text{
-    text-align: center;
-    color: #fff;
-    opacity: 1;
-}
-
-.location-square-2{
-    position: absolute;
-    background-color: #000000;
-    top: 50%;
-    transform: translate(0, 50%);
-    height: 18.75rem;
-    width: 18.75rem;
-    padding: 0.625rem 0.625rem;
-    border: 10px solid #000;
-    opacity: 0.8;
-}
-*/
 .location {
     position: absolute;
     top: 50%;

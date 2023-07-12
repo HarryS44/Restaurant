@@ -1,7 +1,4 @@
-/*General and Header*/
-
-/*Caprasimo*/
-
+/* Define the Caprasimo font and its source */
 @font-face {
     font-family: 'Caprasimo';
     src: url('https://fonts.gstatic.com/s/caprasimo/v2/8vIgQ-qYl8Uvl9dgtoYWt3wNDOjZX4mY.woff2') format('woff2');
@@ -9,8 +6,7 @@
     font-style: normal;
 }
 
-/*Josefin Sans*/
-
+/* Define the Josefin Sans font and its source */
 @font-face {
     font-family: 'Josefin Sans';
     src: url('https://fonts.gstatic.com/s/josefinsans/v21/Qw3PZQNVED7rKGKxtqIqX5EAn4q6.ttf') format('truetype');
@@ -18,8 +14,7 @@
     font-style: normal;
 }
 
-/*Ysabeau Infant*/
-
+/* Define the Ysabeau Infant font and its source */
 @font-face {
     font-family: 'Ysabeau Infant';
     src: url('https://fonts.gstatic.com/s/ysabeauinfant/v6/7rMCoKFzvHmuDlOxVwETPq3MwAE2.ttf') format('truetype');
@@ -27,16 +22,19 @@
     font-style: italic;
 }
 
+/* Set default font and font size for the HTML element */
 html {
     font-family: 'Caprasimo', sans-serif;
     font-size: 16px;
 }
 
+/* Set margin, background color, and font for the body element */
 body {
     margin: 0;
     background-color: #f4f0db;
 }
 
+/* Style for the header element */
 header {
     position: fixed;
     min-height: 5rem;
@@ -47,6 +45,7 @@ header {
     z-index: 3;
 }
 
+/* Styles for heading elements */
 h1 {
     font-size: 3rem;
 }
@@ -55,10 +54,12 @@ h2 {
     font-size: 2.5rem;
 }
 
+/* Style for paragraph elements */
 p {
     font-size: 1rem;
 }
 
+/* Styles for elements inside the header */
 header h1 {
     margin-left: 1.25rem;
 }
@@ -67,6 +68,7 @@ header p {
     margin-left: 2.5rem;
 }
 
+/* Styles for the navigation links inside the header */
 header ul {
     list-style: none;
     position: absolute;
@@ -88,6 +90,7 @@ a {
 
 /*Landing image and everything on the image*/
 
+/* Style for the landinginfo section */
 .landinginfo {
     background-image: url("backgroundimages/Landing1.jpg");
     background-size: cover;
@@ -98,6 +101,7 @@ a {
     border-bottom: 5px solid #000;
 }
 
+/* Style for the side text background */
 .side-text-background {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
@@ -109,6 +113,7 @@ a {
     overflow: hidden;
 }
 
+/* Styles for the side text */
 .side-text h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -127,6 +132,7 @@ a {
 
 /*Our purpose*/
 
+/* Styles for the our-purpose section */
 .our-purpose {
     position: relative;
     text-align: center;
@@ -137,6 +143,7 @@ a {
     border-bottom: 5px solid #000;
 }
 
+/* Styles for the our-purpose text */
 .our-purpose-text {
     text-align: center;
     height: 24rem;
@@ -156,6 +163,7 @@ a {
 
 /*Food pictures*/
 
+/* Styles for images inside articles */
 article img {
     height: 25rem;
     width: 100%;
@@ -163,6 +171,7 @@ article img {
     margin-bottom: 3rem;
 }
 
+/* Styles for the ourfood section */
 .ourfood {
     display: flex;
     justify-content: space-evenly;
@@ -177,6 +186,7 @@ article img {
 
 /*Footer*/
 
+/* Styles for links in the footer */
 footer a {
     font-size: 1rem;
 }
@@ -212,20 +222,20 @@ footer p {
 
 /* Styles for tablets and small laptops */
 @media (min-width: 481px) and (max-width: 767px) {
-    
-    header h1{
+
+    header h1 {
         font-size: 1.8rem;
     }
-    
-    header p{
+
+    header p {
         display: none;
     }
 
-     header a {
+    header a {
         font-size: 1.5rem;
     }
 
-     .our-purpose-text {
+    .our-purpose-text {
         overflow: scroll;
     }
 
@@ -233,7 +243,7 @@ footer p {
 
 /* Styles for medium-sized laptops and desktops */
 @media (min-width: 768px) and (max-width: 1024px) {
-       
+
     .our-purpose-text {
         overflow: scroll;
     }
@@ -242,7 +252,7 @@ footer p {
 
 /* Styles for large desktops and high-resolution displays */
 @media (min-width: 1025px) {
-    .landinginfo{
+    .landinginfo {
         height: 40rem;
     }
 
